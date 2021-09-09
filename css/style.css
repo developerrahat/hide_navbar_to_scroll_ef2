@@ -1,0 +1,34 @@
+body{
+    height: 1200px;
+    background: rgb(63, 52, 51);
+}
+
+.header{
+    background: #f25500;
+    padding: 10px 0;
+    position:sticky;
+    top: 0;
+    width: 100%;
+    z-index: 99999999;
+    transition: all .5s ease-in-out;
+}
+.logo{
+    color: white !important;
+}
+.menu li a{
+    color: white !important;
+}
+.white{
+    padding: 0;
+    box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.4);
+    background: #000000;  
+}
+
+
+.scrollUp{
+    transform: translateY(-150px);
+    opacity: 0;
+}
+
+
+
